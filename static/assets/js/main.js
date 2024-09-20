@@ -27,7 +27,7 @@ loadCSS('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icon
 });
 if(window.location.pathname === "/index.html" || window.location.pathname === "/") {
   console.log("[✔️] Index.html");
-  const options = ["Right-Click to access more features", "Set a custom background in settings.", "Tab Cloaking is highly recommended", "About:Blank Cloak is highly recommended", "This site was originally created as a joke", "Hosted on the best hardware!", "Do not share this link with anyone.", "Join our Discord for more cool things!", "Join our Discord for more cool things!", "© Copyright 2024 Doge Network. All Rights Reserved.", "Customize Doge by going to Settings > Themes", "this is better than henry's website", "this is better than henry's website", "this is better than henry's website", "Hi, fowntain here!", "Thank you so much for 10,000 Discord members! 🎉", "Thank you so much for 10,000 Discord members! 🎉", "Thank you so much for 10,000 Discord members! 🎉", ];
+  const options = ["Hi", "Set a custom background in settings.", "Tab Cloaking is highly recommended", "Roblox doesnt work ￣へ￣", "Mrbeast just posted a new video its called 1$ lawyer to 1,000,000$ lawer", "Hosted on the best hardware!", "Feel free to share this link with anyone.", "Dont go to this link https://www.youtube.com/watch?v=TirKBifH3Wg!", "Customize Cookie by going to Settings > Themes", "this is better than henry's website", "this is better than henry's website", "this is better than henry's website"
 
   function getRandomOption() {
     const randomNumber = Math.floor(Math.random() * options.length);
