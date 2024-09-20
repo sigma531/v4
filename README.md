@@ -1,5 +1,5 @@
-# Doge Unblocker V4
-Doge Unblocker is a lightning-fast site unblocker designed for performance and stealth. We are **by far** the best proxy, offering speeds and features unbeatable by any others.
+# cookie unblocker V4
+cookie unblocker is a lightning-fast site unblocker designed for performance and stealth. We are **by far** the best proxy, offering speeds and features unbeatable by any others.
 ## Key Features:
 <details>
 <summary>View All Features</summary>

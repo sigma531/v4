@@ -27,7 +27,7 @@ if ! command -v git > /dev/null; then
     exit 1
 fi
 
-echo -e "${BLUE}[1/4] Cloning Doge Unblocker repository...${RESET}"
+echo -e "${BLUE}[1/4] Cloning cookie unblocker repository...${RESET}"
 if git clone https://github.com/DogeNetwork/v4 > /dev/null 2>&1; then
     echo -e "${GREEN}[Success] Repository cloned successfully.${RESET}"
 else
@@ -45,14 +45,14 @@ else
     exit 1
 fi
 
-echo -e "${BLUE}[3/4] Starting Doge Unblocker...${RESET}"
+echo -e "${BLUE}[3/4] Starting cookie unblocker...${RESET}"
 npm start
 
 if [ $? -eq 0 ]; then
-    echo -e "${GREEN}[Success] Doge Unblocker started successfully.${RESET}"
+    echo -e "${GREEN}[Success] cookie unblocker started successfully.${RESET}"
     echo -e "${YELLOW}[Info] You can access Doge V4 via localhost.${RESET}"
 else
-    echo -e "${RED}[Error] Failed to start Doge Unblocker. Please check the application logs for details.${RESET}"
+    echo -e "${RED}[Error] Failed to start cookie unblocker. Please check the application logs for details.${RESET}"
     exit 1
 fi
 
